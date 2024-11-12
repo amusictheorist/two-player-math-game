@@ -1,4 +1,6 @@
-require 'Game'
-require 'Player'
-require 'Question'
+require './Game'
+require './Player'
+require './Question'
 
+game = Game.new
+game.start
